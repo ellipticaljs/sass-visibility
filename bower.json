@@ -1,0 +1,46 @@
+{
+  "name": "sass-visibility",
+  "description": "Sass Visibility Classes",
+  "main": "dist/visibility.css",
+  "version":"1.0.2",
+  "authors": [
+    "S. Francis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "responsive",
+    "visibility",
+    "css",
+    "classes"
+  ],
+  "homepage": "https://github.com/ellipticaljs/sass-visibility",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".gitignore",
+    ".npmignore",
+    "gulpfile.js",
+    "lib",
+    "docs",
+    "index.js",
+    "umd.js",
+    "package.json",
+    "demo",
+    "index.html",
+    "build.json",
+    "bundle.json",
+    ".nvmrc",
+    ".eslintrc",
+    "bin",
+    "CHANGELOG.md",
+    "demos",
+    "stylesheets",
+    "_index.scss",
+    "bk",
+    "sassdoc"
+  ]
+}
