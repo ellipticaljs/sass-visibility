@@ -2,7 +2,7 @@
   "name": "sass-visibility",
   "description": "Sass Visibility Classes",
   "main": "dist/visibility.css",
-  "version":"1.0.2",
+  "version":"1.0.3",
   "authors": [
     "S. Francis"
   ],

@@ -102,7 +102,7 @@
     }
   }
 
-  @include medium-content(){
+  @include touch-content(){
     .show-for-phone,
     .show-for-small{
       display:none !important;

@@ -129,7 +129,7 @@
   .hide-for-touch {
     display: none !important; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 640px) {
+@media only screen and (max-width: 1024px) and (min-width: 220px) {
   .show-for-phone,
   .show-for-small {
     display: none !important; }
