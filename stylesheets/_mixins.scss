@@ -2,7 +2,7 @@
 
 /// @access private
 @mixin _visibility-display(){
-  display: inherit !important;
+  display: initial !important;
   &.block{
     display:block !important;
   }
@@ -11,6 +11,9 @@
   }
   &.unset{
     display: unset !important;
+  }
+  &.inherit{
+    display: inherit !important;
   }
   &.flex{
     display:-webkit-flex !important;
