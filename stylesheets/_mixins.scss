@@ -55,7 +55,7 @@
   .hide-for-small,
   .hide-for-tablet-down,
   .hide-for-medium-down{
-
+    @include _visibility-display();
   }
 
 
@@ -108,8 +108,6 @@
       display:none !important;
     }
 
-    .hide-for-phone,
-    .hide-for-small,
     .show-for-large-down,
     .show-for-tablet,
     .show-for-tablet-down,
