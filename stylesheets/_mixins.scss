@@ -2,12 +2,15 @@
 
 /// @access private
 @mixin _visibility-display(){
-  display: initial !important;
+  display: inherit !important;
   &.block{
     display:block !important;
   }
   &.inline{
     display:inline !important;
+  }
+  &.unset{
+    display: unset !important;
   }
   &.flex{
     display:-webkit-flex !important;
