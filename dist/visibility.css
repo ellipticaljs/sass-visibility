@@ -8,7 +8,7 @@
 .show-for-phone,
 .show-for-small,
 .hide-for-tablet-up,
-.hide-for-medium-up
+.hide-for-medium-up,
 .show-for-tablet-down,
 .show-for-medium-down,
 .show-for-tablet,
@@ -178,10 +178,6 @@
   .show-for-x-large,
   .show-for-large {
     display: none !important; }
-  .hide-for-tablet,
-  .hide-for-medium,
-  .hide-for-tablet-up,
-  .hide-for-medium-up,
   .hide-for-tablet-down,
   .hide-for-medium-down {
     display: none !important; }
@@ -205,6 +201,13 @@
   .show-for-touch {
     display: initial !important; }
   .hide-for-touch {
+    display: none !important; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 640px) {
+  .hide-for-tablet,
+  .hide-for-medium,
+  .hide-for-tablet-up,
+  .hide-for-medium-up {
     display: none !important; } }
 
 @media only screen and (min-width: 1025px) {
