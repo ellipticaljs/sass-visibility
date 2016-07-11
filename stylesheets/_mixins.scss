@@ -4,20 +4,20 @@
 @mixin _visibility-display(){
   display: initial !important;
   &.block{
-    display:block !important;
+    display:block;
   }
   &.inline{
-    display:inline !important;
+    display:inline;
   }
   &.unset{
-    display: unset !important;
+    display: unset;
   }
   &.inherit{
-    display: inherit !important;
+    display: inherit;
   }
   &.flex{
-    display:-webkit-flex !important;
-    display:flex !important
+    display:-webkit-flex;
+    display:flex;
   }
 }
 
