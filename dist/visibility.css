@@ -22,7 +22,7 @@
 .show-for-medium-up
 .show-for-desktop,
 .show-for-large {
-  display: initial !important; }
+  display: initial; }
   .show-for-tablet.block,
   .show-for-medium.block,
   .show-for-tablet-up.block,
@@ -65,7 +65,7 @@
 .hide-for-small,
 .hide-for-tablet-down,
 .hide-for-medium-down {
-  display: initial !important; }
+  display: initial; }
   .hide-for-touch.block,
   .hide-for-phone.block,
   .hide-for-small.block,
@@ -104,7 +104,7 @@
   .show-for-tablet-down,
   .show-for-large-down,
   .show-for-medium-down {
-    display: initial !important; }
+    display: initial; }
     .show-for-phone.block,
     .show-for-small.block,
     .show-for-tablet-down.block,
@@ -152,7 +152,7 @@
   .hide-for-desktop,
   .hide-for-x-large,
   .hide-for-large {
-    display: initial !important; }
+    display: initial; }
     .hide-for-tablet.block,
     .hide-for-medium.block,
     .hide-for-tablet-up.block,
@@ -198,7 +198,7 @@
   .hide-for-small {
     display: none !important; }
   .show-for-touch {
-    display: initial !important; }
+    display: initial; }
     .show-for-touch.block {
       display: block; }
     .show-for-touch.inline {
@@ -224,7 +224,7 @@
   .show-for-medium,
   .show-for-tablet-up,
   .show-for-medium-up {
-    display: initial !important; }
+    display: initial; }
     .show-for-large-down.block,
     .show-for-tablet.block,
     .show-for-tablet-down.block,
@@ -276,7 +276,7 @@
   .hide-for-desktop,
   .hide-for-x-large,
   .hide-for-large {
-    display: initial !important; }
+    display: initial; }
     .hide-for-desktop.block,
     .hide-for-x-large.block,
     .hide-for-large.block {
@@ -314,7 +314,7 @@
   .show-for-large,
   .show-for-large-down,
   .show-for-large-up {
-    display: initial !important; }
+    display: initial; }
     .show-for-large.block,
     .show-for-large-down.block,
     .show-for-large-up.block {
@@ -341,7 +341,7 @@
   .show-for-x-large,
   .show-for-large-up,
   .hide-for-large-down {
-    display: initial !important; }
+    display: initial; }
     .show-for-x-large.block,
     .show-for-large-up.block,
     .hide-for-large-down.block {
@@ -370,7 +370,7 @@
 @media only screen and (orientation: portrait) {
   .show-for-portrait,
   .hide-for-landscape {
-    display: initial !important; }
+    display: initial; }
     .show-for-portrait.block,
     .hide-for-landscape.block {
       display: block; }
@@ -397,7 +397,7 @@
     display: none; }
   .show-for-landscape,
   .hide-for-portrait {
-    display: initial !important; }
+    display: initial; }
     .show-for-landscape.block,
     .hide-for-portrait.block {
       display: block; }

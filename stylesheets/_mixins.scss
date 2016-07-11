@@ -2,7 +2,7 @@
 
 /// @access private
 @mixin _visibility-display(){
-  display: initial !important;
+  display: initial;
   &.block{
     display:block;
   }
