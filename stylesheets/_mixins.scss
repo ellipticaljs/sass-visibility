@@ -2,22 +2,41 @@
 
 /// @access private
 @mixin _visibility-display(){
-  display: initial;
+  display: initial !important;
   &.block{
-    display:block;
+    display:block !important;
   }
   &.inline{
-    display:inline;
+    display:inline !important;
   }
   &.unset{
-    display: unset;
+    display: unset !important;
   }
   &.inherit{
-    display: inherit;
+    display: inherit !important;
   }
   &.flex{
-    display:-webkit-flex;
-    display:flex;
+    display:-webkit-flex !important;
+    display:flex !important;
+  }
+}
+
+/// @access private
+@mixin _visibility-no-display(){
+  &.block{
+    display:none !important;
+  }
+  &.inline{
+    display:none !important;
+  }
+  &.unset{
+    display: none !important;
+  }
+  &.inherit{
+    display: none !important;
+  }
+  &.flex{
+    display: none !important;
   }
 }
 
@@ -44,7 +63,8 @@
   .show-for-tablet,
   .show-for-medium,
   .show-for-touch {
-    display: none !important
+    display: none !important;
+    @include _visibility-no-display();
   }
 
   .show-for-tablet,
@@ -83,6 +103,7 @@
     .show-for-desktop,
     .show-for-large{
       display: none !important;
+      @include _visibility-no-display();
     }
 
     .hide-for-tablet,
@@ -98,6 +119,7 @@
     .hide-for-phone,
     .hide-for-small{
       display: none !important;
+      @include _visibility-no-display();
     }
 
     .show-for-touch{
@@ -105,6 +127,7 @@
     }
     .hide-for-touch{
       display: none !important;
+      @include _visibility-no-display();
     }
   }
 
@@ -112,6 +135,7 @@
     .show-for-phone,
     .show-for-small{
       display:none !important;
+      @include _visibility-no-display();
     }
 
     .show-for-large-down,
@@ -128,11 +152,13 @@
     .show-for-x-large,
     .show-for-large{
       display: none !important;
+      @include _visibility-no-display();
     }
 
     .hide-for-tablet-down,
     .hide-for-medium-down{
       display:none !important;
+      @include _visibility-no-display();
     }
     .hide-for-desktop,
     .hide-for-x-large,
@@ -144,6 +170,7 @@
     }
     .hide-for-touch{
       display: none !important;
+      @include _visibility-no-display();
     }
   }
 
@@ -153,6 +180,7 @@
     .hide-for-tablet-up,
     .hide-for-medium-up{
       display:none !important;
+      @include _visibility-no-display();
     }
   }
 
@@ -173,6 +201,7 @@
     .show-for-large-down,
     .show-for-large{
       display:none !important;
+      @include _visibility-no-display();
     }
   }
 
@@ -184,12 +213,14 @@
     .show-for-landscape,
     .hide-for-portrait{
       display:none;
+      @include _visibility-no-display();
     }
   }
   @include landscape-content(){
     .show-for-portrait,
     .hide-for-landscape{
       display:none;
+      @include _visibility-no-display();
     }
     .show-for-landscape,
     .hide-for-portrait{
